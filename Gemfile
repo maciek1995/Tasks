@@ -11,10 +11,16 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+  gem 'factory_girl_rails'
+  gem 'ffaker'
   gem 'byebug', platform: :mri
 end
 
 group :development do
+  gem 'better_errors'
+  gem 'pry-rails'
+  gem 'awesome_print'
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
